@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { addItem } from '../Features/Cart/cartSlice';
 import { Container, Row, Col, Button, Card } from 'react-bootstrap';
 import CartItems from './CartItem';
-// Assuming you have some styles here
+
 
 const CartPage = () => {
     const dispatch = useDispatch();
